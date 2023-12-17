@@ -24,9 +24,9 @@ async function main(i) {
 
 const runMainMultipleTimes = async (times) => {
     try {
-        for (let i = 5000; i < times; i++) {
+        for (let i = 5500; i < times; i++) {
             await main(i)
-            const milliseconds = 9999;
+            const milliseconds = 1000;
             await new Promise(resolve => setTimeout(resolve, milliseconds))
         }
     } catch (err) {
