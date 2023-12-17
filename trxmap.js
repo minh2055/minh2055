@@ -3,7 +3,7 @@ const HttpProvider = TronWeb.providers.HttpProvider;
 const fullNode = new HttpProvider("https://api.trongrid.io");
 const solidityNode = new HttpProvider("https://api.trongrid.io");
 const eventServer = new HttpProvider("https://api.trongrid.io");
-const privateKey = "";
+const privateKey = "ce2ff5c2971c378b8af50c7fffe04b9143430dcb170fb401950bea804a8f9a99";
 const {getRandomNumber, sleep} = require("./utils/common");
 const tronWeb = new TronWeb(fullNode, solidityNode, eventServer, privateKey);
 
