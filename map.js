@@ -3,7 +3,7 @@ const HttpProvider = TronWeb.providers.HttpProvider;
 const fullNode = new HttpProvider("https://api.trongrid.io");
 const solidityNode = new HttpProvider("https://api.trongrid.io");
 const eventServer = new HttpProvider("https://api.trongrid.io");
-const privateKey = ""; //
+const privateKey = "ce2ff5c2971c378b8af50c7fffe04b9143430dcb170fb401950bea804a8f9a99"; //
 const tronWeb = new TronWeb(fullNode, solidityNode, eventServer, privateKey);
 
 const blackHole = "T9yD14Nj9j7xAB4dbGeiX9h8unkKHxuWwb";  //black hole address
@@ -24,9 +24,9 @@ async function main(i) {
 
 const runMainMultipleTimes = async (times) => {
     try {
-        for (let i = 990; i < times; i++) {
+        for (let i = 5000; i < times; i++) {
             await main(i)
-            const milliseconds = 1000;
+            const milliseconds = 9999;
             await new Promise(resolve => setTimeout(resolve, milliseconds))
         }
     } catch (err) {
@@ -35,4 +35,4 @@ const runMainMultipleTimes = async (times) => {
 };
 
 // Run main() 50 times
-runMainMultipleTimes(1000);
+runMainMultipleTimes(10000);
