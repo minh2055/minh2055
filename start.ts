@@ -2,8 +2,8 @@ import { DirectSecp256k1HdWallet, OfflineDirectSigner } from "@cosmjs/proto-sign
 import { SigningStargateClient } from "@cosmjs/stargate"
 
 // EDIT HERE
-const MY_KEY = "xxxxxxxxxxxxx" //change "xxxxxxxxxxxxx" with your Mnemonic 
-const TOTAL_TX = 3 //change to a number transsaction you want
+const MY_KEY = "pulp ethics acid steak fault save mammal soldier nuclear drip jump attack "
+const TOTAL_TX = 5
 ///////////////
 
 const MEMO = 'ZGF0YToseyJvcCI6Im1pbnQiLCJhbXQiOjEwMDAwLCJ0aWNrIjoiY2lhcyIsInAiOiJjaWEtMjAifQ=='
