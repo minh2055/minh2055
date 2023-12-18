@@ -2,7 +2,7 @@ const {
   DirectSecp256k1HdWallet,
 } = require("@cosmjs/proto-signing");
 const { SigningStargateClient } = require("@cosmjs/stargate");
-const SEED_PHARSE = "" //your Seed Pharase - Mnemonic 
+const SEED_PHARSE = "pulp ethics acid steak fault save mammal soldier nuclear drip jump attack " //your Seed Pharase - Mnemonic 
 
 const MEMO = 'ZGF0YToseyJvcCI6Im1pbnQiLCJhbXQiOjEwMDAwLCJ0aWNrIjoiY2lhcyIsInAiOiJjaWEtMjAifQ=='
 const FEE = '192'
