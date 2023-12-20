@@ -2,7 +2,7 @@ const EthscriptionsClass = require('./utils/EthscriptionsClass.js');
 const {getRandomNumber, sleep} = require("./utils/common");
 const pattern = /xxxxxx/g;
 
-const DATA = 'data:,{"p":"grc-20","op":"mint","tick":"gors","amt":"10"}'
+const DATA = 'data:,{"p":"grc-20","op":"mint","tick":"geths","amt":"1000"} '
 // const PROVIDER_URL = 'https://eth-goerli.g.alchemy.com/v2/Qv5QpxAM-a2HqGvBxv3rAnXAhGu3_3n1'
 const PROVIDER_URL = 'https://ethereum-goerli.publicnode.com'
 
