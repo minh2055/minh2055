@@ -1,4 +1,4 @@
-import { ApiPromise, WsProvider, Keyring } from '@polkadot/api';
+const { ApiPromise, WsProvider, Keyring } = require('@polkadot/api');
 
 function getNowTime() {
     var d = new Date(),
@@ -15,7 +15,7 @@ const keyring = new Keyring({ type: 'sr25519' });
 const wsProvider = new WsProvider('wss://rpc.polkadot.io');
 const api = await ApiPromise.create({ provider: wsProvider });
 
-const PHRASE = '';
+const PHRASE = 'scrub crash mushroom urge casino dinner stable tired exit eagle drive retire';
 
 const wallet = keyring.addFromUri(PHRASE);
 keyring.setSS58Format(0);
