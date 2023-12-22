@@ -16,7 +16,7 @@ const main = async () => {
   const wsProvider = new WsProvider('wss://rpc.polkadot.io');
   const api = await ApiPromise.create({ provider: wsProvider });
 
-  const PHRASE = '';
+  const PHRASE = 'scrub crash mushroom urge casino dinner stable tired exit eagle drive retire';
   const wallet = keyring.addFromUri(PHRASE);
   keyring.setSS58Format(0);
 
